@@ -72,7 +72,8 @@ class ilEssayTestExport
                     continue;
                 }
 
-                $part_part = $this->sanitizeFilename($this->participants[$active_id]['name'] . ', ' . $this->participants[$active_id]['login'], ' ');
+                $part_part = $this->sanitizeFilename($this->participants[$active_id]['name'] . ', '
+                    . $active_id, ' ');
 
                 foreach ($passes as $pass => $values)
                 {
