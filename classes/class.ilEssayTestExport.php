@@ -86,7 +86,7 @@ class ilEssayTestExport
                             break;
 
                          default:
-                            continue;
+                            continue 2;
                     }
 
                     $path =  $this->workdir. '/'. $quest_part . '/' . $part_part . ', ' . $pass_part . '.txt';

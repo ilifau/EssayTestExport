@@ -12,7 +12,7 @@ PLUGIN INSTALLATION
 -------------------
 
 1. Put the content of the plugin directory in a subdirectory under your ILIAS main directory:
-Customizing/global/plugins/Modules/Test/EssayTestExport
+Customizing/global/plugins/Modules/Test/Export/EssayTestExport
 
 2. Open ILIAS > Administration > Plugins
 
